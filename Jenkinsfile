@@ -47,7 +47,7 @@ pipeline {
                     }
                 }
             }
-        }
+        } 
         stage('Trivy Image Scan') {
             steps {
                 sh 'trivy image sachidananda06/gc-bank:money1'
